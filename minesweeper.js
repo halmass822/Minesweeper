@@ -132,7 +132,7 @@
         }
         clickTile(){
             this.clickstate = true;
-            document.getElementById(this.coordinate).backgroundColor = "lightgray"
+            document.getElementById(this.coordinate).style.backgroundColor = "lightgray"
             if(this.content === "B") {
                 gameOver();
             } else {
